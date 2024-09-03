@@ -1,0 +1,67 @@
+*{
+  font-family: sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.create_form input {
+  width: 300px;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+  width: 200px;
+}
+
+.uil-check-circle{
+  color: green;
+}
+.create_form button {
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  width: 100px;
+  margin-left: 5px;
+  border-radius: 20px;
+  background-color: rgb(250, 42, 42);
+  color: white;
+  cursor: pointer;
+}
+
+.task {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+  border: solid 2px #000;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.task:hover{
+  background: gainsboro;
+}
+
+p {
+  font-size: 20px;
+  display: inline-block;
+}
+
+i {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.line_throungh {
+  text-decoration: line-through;
+}
